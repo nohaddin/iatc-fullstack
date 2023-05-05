@@ -1,0 +1,35 @@
+.daiel {
+    width: 500px;
+    height: 280px;
+background-color: rgb(109, 35, 206);
+border-radius:20px ;
+margin-left: 220px;
+}
+section>div>img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: 35px;
+    padding: 12px 17px;
+}
+.nm {
+
+    font-weight: 20px;
+}
+section>div>p {
+    font-size: 17px;
+padding:  0px 20px;
+margin: 25px 0px;
+color: white;
+}
+.nuhu{
+    font-size: 12px;
+}
+span {
+   font-weight: 20px;
+    color: white;
+}
+b{
+   display: inline-block;
+   color: white;
+}
