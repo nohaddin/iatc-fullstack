@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(41, 101, 155);
+}
+body {
+    background-color: white;
+    height: 400px;
+    width: 200px;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+body > image {
+    height: 180px;
+    width: 180px;
+    border-radius: 24px;
+}
