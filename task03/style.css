@@ -1,0 +1,11 @@
+@import url( header.css);
+@import url( hero.css);
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+ 
+   color: aliceblue;
+}

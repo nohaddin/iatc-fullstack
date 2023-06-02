@@ -1,0 +1,74 @@
+.nuhu{
+    background-color: aqua;
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 12px;
+    > h1{
+        font-size: 64px;
+    }
+    >form{
+        border-radius: 80px;
+        background-color: aliceblue;
+        padding: 12px 24px;
+    display: grid;
+    grid-template-columns:1fr 1px 1fr 1px 1fr ;
+    gap: 20px;
+    align-items: center;
+    }
+}
+.galery{
+
+    width:(50%-24px);
+    display: inline-block;
+    margin: 10px;
+
+
+
+}
+.galery > .rapper { 
+margin: 0;
+padding: 0;
+border-radius: 20px;
+overflow: hidden;
+display: inline-block
+}
+.galery > .rapper { 
+    width: 200px;
+    height: 100px;
+
+}
+.galery > .rapper :first-child, 
+.galery > .rapper :last-child{
+    width: 100px;
+    height: 100px;
+    
+}
+.galery > .img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+ 
+form > input{
+    border: none;
+    width: 100%;
+
+}
+form > button {
+    
+    color: aliceblue;
+    background-color: black;
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+}
+form > .vertical{
+    width: 1px;
+    background-color: black;
+    display: inline-block;
+    height: 40px;
+
+}

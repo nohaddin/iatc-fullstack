@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+
+}
+.box{
+    background-color: black;
+    padding: 1em;
+  
+}
+.box:nth-child(1){
+   grid-area: 1/1/3/3;
+}
